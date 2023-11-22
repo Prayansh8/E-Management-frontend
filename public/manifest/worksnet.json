@@ -1,0 +1,45 @@
+{
+  "name": "WorksNet - Next Gen LMS",
+  "short_name": "WorksNet App",
+  "description": "For Next Gen Schools",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#737373",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "https://static.easify.xyz/worksnet/images/WorksNetLogo128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "https://static.easify.xyz/worksnet/images/WorksNetLogo192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://static.easify.xyz/worksnet/images/WorksNetLogo256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "https://static.easify.xyz/worksnet/images/WorksNetLogoScaled512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "https://static.easify.xyz/worksnet/images/WorksNet-LOGO-3000.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "splash_pages": null,
+  "categories": ["education"],
+  "dir": "ltr",
+  "lang": "en-US"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "E-Management - Next Gen LMS",
+  "short_name": "E-Management",
+  "description": "For Next Gen Schools",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007bff",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-256.png",
+      "sizes": "512x512, 256x256",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "splash_pages": null,
+  "categories": ["education"],
+  "dir": "ltr",
+  "lang": "en-US"
+}

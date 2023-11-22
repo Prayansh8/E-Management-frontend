@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "xyz.easify.sanskar.twa",
+      "sha256_cert_fingerprints": [
+        "3B:AE:58:41:E2:09:7F:8C:B6:A2:3C:E9:27:95:57:9C:4B:5E:56:7F:47:61:35:5A:82:F5:39:E2:2B:4F:66:EB"
+      ]
+    }
+  }
+]
