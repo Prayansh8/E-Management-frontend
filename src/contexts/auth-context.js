@@ -5,10 +5,8 @@ import { snakeCaseToTitle } from "src/utils";
 import {
   getCachedUser,
   getCachedAccessToken,
-  getCachedRefreshToken,
   setCachedAccessToken,
   setCachedUser,
-  setCachedRefreshToken,
 } from "src/utils/cache";
 
 export const AuthContext = createContext({});
@@ -18,7 +16,6 @@ export const AuthProvider = (props) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [isInitialized, setIsInitialized] = useState(false);
   const [accessToken, setAccessToken] = useState(null);
-  const [refreshToken, setRefreshToken] = useState(null);
   const [selectedRole, setSelectedRole] = useState(null);
   const [user, setUser] = useState({});
 
@@ -42,14 +39,12 @@ export const AuthProvider = (props) => {
   useEffect(() => {
     setIsInitialized(true);
     const cachedAccessToken = getCachedAccessToken();
-    const cachedRefreshToken = getCachedRefreshToken();
     const cachedUser = getCachedUser();
     const isValid = isTokenValid(cachedAccessToken);
     setSelectedRole(snakeCaseToTitle(cachedUser.role));
     if (isValid) {
       setUser(cachedUser);
       setAccessToken(cachedAccessToken);
-      setRefreshToken(cachedRefreshToken);
       setIsAuthenticated(true);
     } else if (window.location.pathname !== "/") {
       window.location.href = "";
@@ -57,16 +52,13 @@ export const AuthProvider = (props) => {
   }, []);
 
   const setIncomingAuthData = (data) => {
-    const accessToken = data.access;
-    const refreshToken = data.refresh;
+    const accessToken = data.token;
     const user = data.user;
-    if (accessToken && refreshToken && user) {
+    if (accessToken && user) {
       setUser(user);
       setAccessToken(accessToken);
-      setRefreshToken(refreshToken);
       setIsAuthenticated(true);
       setCachedAccessToken(accessToken);
-      setCachedRefreshToken(refreshToken);
       setCachedUser(user);
     } else {
       console.error("Failed to get tokens and user from auth response data");
@@ -80,7 +72,6 @@ export const AuthProvider = (props) => {
         isInitialized,
         user,
         accessToken,
-        refreshToken,
         selectedRole,
         setSelectedRole,
         setIncomingAuthData,

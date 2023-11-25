@@ -21,7 +21,3 @@ export const setCachedUser = (user) => {
 export const setCachedAccessToken = (accessToken) => {
   window.localStorage.setItem(STORAGE_ACCESS_KEY, accessToken);
 };
-
-export const setCachedRefreshToken = (refreshToken) => {
-  window.localStorage.setItem(STORAGE_REFRESH_KEY, refreshToken);
-};
