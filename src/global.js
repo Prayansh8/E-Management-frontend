@@ -18,24 +18,8 @@ const PrivatePagesContainer = ({ children }) => {
     }
   };
 
-  const getSchoolGradesSectionsList = async () => {
-    const resData = await apiCalls.getGradesSectionsList();
-    if (resData) {
-      setGradesSectionsList(resData);
-    }
-  };
-
-  const checkAndUploadAttendance = () => {
-    const savedAttendances = getCache("savedAttendance", null);
-    if (!savedAttendances) {
-      setCache("savedAttendance", []);
-    }
-  };
-
   useEffect(() => {
     getThisTenantInfo();
-    getSchoolGradesSectionsList();
-    checkAndUploadAttendance();
   }, []);
 
   return (

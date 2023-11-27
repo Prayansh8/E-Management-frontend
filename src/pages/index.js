@@ -10,9 +10,7 @@ import { usePageView } from "src/hooks/use-page-view";
 import { useSettings } from "src/hooks/use-settings";
 import { useAuthContext } from "src/contexts/auth-context";
 import { getUserTitleName } from "src/utils";
-import { RecentlyAddedStudents } from "src/sections/student/recently-added";
 import { DashboardStats } from "src/sections/dashboard/stats";
-import { AttendanceChart } from "src/sections/attendance/attendance-chart";
 
 const Page = () => {
   const settings = useSettings();
@@ -55,17 +53,6 @@ const Page = () => {
                 }}
               >
                 <DashboardStats />
-                <AttendanceChart />
-              </Stack>
-            </Grid>
-            <Grid xs={12} lg={4}>
-              <Stack
-                spacing={{
-                  xs: 3,
-                  lg: 4,
-                }}
-              >
-                <RecentlyAddedStudents />
               </Stack>
             </Grid>
           </Grid>
