@@ -1,9 +1,21 @@
 import React, { useEffect, useState } from "react";
 import { Card, Typography, Unstable_Grid2 as Grid } from "@mui/material";
+import apiCalls from "src/api";
 import { StatsCardSmall } from "src/components/stats-card-small";
 
 export const DashboardStats = ({ defaultParams }) => {
   const [stats, setStats] = useState({});
+
+  const getDashboardStats = async () => {
+    const resData = await apiCalls.getDashboardStats(defaultParams);
+    if (resData) {
+      setStats(resData);
+    }
+  };
+
+  useEffect(() => {
+    getDashboardStats();
+  }, []);
 
   return (
     <Card>
