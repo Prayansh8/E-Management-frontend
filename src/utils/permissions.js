@@ -1,7 +1,8 @@
 import { paths } from "src/paths";
 
 export const navItems = {
-  // dashboard: "dashboard",
+  dashboard: "dashboard",
+  projects: "projects",
   // classes: "classes",
   // finance: "finance",
   // students: "students",
@@ -13,6 +14,7 @@ export const navItems = {
 const teacherAccessibleNavItems = [navItems.classes];
 
 const teacherAccessiblePages = [
+  paths.projects
   //     paths.classes,
   //     paths.sections,
   //     paths.attendance,
@@ -24,22 +26,22 @@ const teacherAccessiblePages = [
 ];
 
 export const canSeeNavItem = (user, item) => {
-  if (user.role === "admin" || user.role === "owner") {
-    return true;
-  } else if (
-    user.role === "teacher" &&
-    teacherAccessibleNavItems.includes(item)
-  ) {
-    return true;
-  }
-  return false;
+    if (user.role === "admin" || user.role === "owner") {
+      return true;
+    } else if (
+      user.role === "teacher" &&
+      teacherAccessibleNavItems.includes(item)
+    ) {
+      return true;
+    }
+    return false;
 };
 
 export const canAccessPage = (user, item) => {
-  if (user.role === "admin" || user.role === "owner") {
-    return true;
-  } else if (user.role === "teacher" && teacherAccessiblePages.includes(item)) {
-    return true;
-  }
-  return false;
+    if (user.role === "admin" || user.role === "owner") {
+      return true;
+    } else if (user.role === "teacher" && teacherAccessiblePages.includes(item)) {
+      return true;
+    }
+    return false;
 };

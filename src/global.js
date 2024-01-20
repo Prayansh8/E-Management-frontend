@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { useTenantContext } from "src/contexts/tenant-context";
 import { useSchoolContext } from "src/contexts/school-context";
-import { getCache, setCache } from "./utils";
 import CircularLoaderWithImage from "./components/loader";
 import apiCalls from "src/api";
 import { Box } from "@mui/material";
@@ -10,6 +9,7 @@ const PrivatePagesContainer = ({ children }) => {
   const { setTenantConfig } = useTenantContext();
   const { setGradesSectionsList, showGloablLoader } =
     useSchoolContext();
+    setGradesSectionsList("9")
 
   const getThisTenantInfo = async () => {
     const resData = await apiCalls.thisTenant();

@@ -14,11 +14,9 @@ import {
   Typography,
 } from "@mui/material";
 import {
-  BadgeSharp,
   ClassOutlined,
   ClassSharp,
   Countertops,
-  CurrencyRupee,
   Home,
 } from "@mui/icons-material";
 import { useSchoolContext } from "src/contexts/school-context";
@@ -56,29 +54,15 @@ export default function BottomNav() {
       tempBottomNavigationItems = [
         ...tempBottomNavigationItems,
         {
-          onClick: () => navigate(paths.classes),
+          onClick: () => navigate(paths.projects),
           icon: <ClassOutlined sx={{ fontSize: 18 }} />,
-          label: "Classes",
+          label: "Projects",
         },
-        {
-          onClick: () => navigate(paths.teachers),
-          icon: <BadgeSharp sx={{ fontSize: 18 }} />,
-          label: "Teachers",
-        },
+
         {
           icon: <Home sx={{ fontSize: 18 }} />,
           onClick: () => navigate(paths.index),
           label: "Home",
-        },
-        {
-          onClick: () => navigate(paths.finance),
-          icon: <CurrencyRupee sx={{ fontSize: 18 }} />,
-          label: "Finance",
-        },
-        {
-          onClick: () => navigate(paths.attendance),
-          icon: <Countertops sx={{ fontSize: 18 }} />,
-          label: "Attendance",
         },
       ];
       setSelectedNavItem(2);

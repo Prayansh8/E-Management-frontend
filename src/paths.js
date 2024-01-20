@@ -121,6 +121,7 @@ export const paths = {
   },
   // Currently used paths
   index: "/",
+  projects: "/projects",
 
   401: "/401",
   404: "/404",
