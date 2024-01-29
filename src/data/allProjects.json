@@ -1,0 +1,747 @@
+[
+  {
+    "projectInformation": {
+      "projectName": "Your Project Name",
+      "projectCode": "ABC123",
+      "projectType": "Type A",
+      "projectDescription": "A brief description of the project"
+    },
+    "projectTeam": {
+      "teamLead": "John Doe",
+      "projectLead": "Jane Smith",
+      "teamMembers": ["Team Member 1", "Team Member 2", "Team Member 3"],
+      "rolesAndResponsibilities": {
+        "teamLead": "Responsibilities of Team Lead",
+        "projectLead": "Responsibilities of Project Lead",
+        "teamMembers": "Responsibilities of Team Members"
+      }
+    },
+    "projectTimeline": {
+      "projectStartDate": "2024-01-01",
+      "projectFinishDate": "2024-06-30",
+      "workHours": 160,
+      "plannedDuration": "6 months",
+      "actualDuration": "7 months",
+      "criticalPath": "Task 1 -> Task 2 -> Task 3"
+    },
+    "projectSchedule": {
+      "milestones": ["Milestone 1", "Milestone 2", "Milestone 3"],
+      "tasks": ["Task 1", "Task 2", "Task 3"],
+      "dependencies": {
+        "Task 2": ["Task 1"],
+        "Task 3": ["Task 2"]
+      }
+    },
+    "projectCostAndExpenses": {
+      "estimatedProjectCost": "$100,000",
+      "actualProjectCost": "$110,000",
+      "budgetAllocation": {
+        "category1": "$30,000",
+        "category2": "$40,000",
+        "category3": "$30,000"
+      },
+      "expenses": ["Expense 1", "Expense 2", "Expense 3"]
+    },
+    "projectProcess": {
+      "projectMethodology": "Agile",
+      "developmentProcess": "Scrum",
+      "qualityAssurance": "ISO 9001",
+      "changeManagement": "Change Control Board",
+      "riskManagement": "Risk Register",
+      "communicationPlan": "Regular team meetings, Slack",
+      "collaborationToolsUsed": ["Jira", "Confluence"]
+    },
+    "people": {
+      "stakeholders": ["Stakeholder 1", "Stakeholder 2", "Stakeholder 3"],
+      "communicationChannels": ["Email", "Bi-weekly Meetings"]
+    },
+    "powerAndDecisionMaking": {
+      "decisionMakingStructure": "Hierarchical",
+      "decisionMakers": ["Decision Maker 1", "Decision Maker 2"],
+      "authorityLevels": ["Level 1", "Level 2"]
+    },
+    "projectResults": {
+      "deliverables": ["Deliverable 1", "Deliverable 2", "Deliverable 3"],
+      "successMetrics": ["Metric 1", "Metric 2"],
+      "lessonsLearned": ["Lesson 1", "Lesson 2"]
+    }
+  },
+  {
+    "projectInformation": {
+      "projectName": "Your Project Name",
+      "projectCode": "ABC123",
+      "projectType": "Type A",
+      "projectDescription": "A brief description of the project"
+    },
+    "projectTeam": {
+      "teamLead": "John Doe",
+      "projectLead": "Jane Smith",
+      "teamMembers": [
+        "Team Member 1",
+        "Team Member 2",
+        "Team Member 3",
+        "Team Member 4",
+        "Team Member 5",
+        "Team Member 6",
+        "Team Member 7",
+        "Team Member 8",
+        "Team Member 9",
+        "Team Member 10"
+      ],
+      "rolesAndResponsibilities": {
+        "teamLead": "Responsibilities of Team Lead",
+        "projectLead": "Responsibilities of Project Lead",
+        "teamMembers": "Responsibilities of Team Members"
+      }
+    },
+    "projectTimeline": {
+      "projectStartDate": "2024-01-01",
+      "projectFinishDate": "2024-06-30",
+      "workHours": 160,
+      "plannedDuration": "6 months",
+      "actualDuration": "7 months",
+      "criticalPath": "Task 1 -> Task 2 -> Task 3"
+    },
+    "projectSchedule": {
+      "milestones": [
+        "Milestone 1",
+        "Milestone 2",
+        "Milestone 3",
+        "Milestone 4",
+        "Milestone 5"
+      ],
+      "tasks": ["Task 1", "Task 2", "Task 3", "Task 4", "Task 5", "Task 6"],
+      "dependencies": {
+        "Task 2": ["Task 1"],
+        "Task 3": ["Task 2"],
+        "Task 4": ["Task 3"],
+        "Task 5": ["Task 4"],
+        "Task 6": ["Task 5"]
+      }
+    },
+    "projectCostAndExpenses": {
+      "estimatedProjectCost": "$100,000",
+      "actualProjectCost": "$110,000",
+      "budgetAllocation": {
+        "category1": "$30,000",
+        "category2": "$40,000",
+        "category3": "$30,000"
+      },
+      "expenses": [
+        "Expense 1",
+        "Expense 2",
+        "Expense 3",
+        "Expense 4",
+        "Expense 5"
+      ]
+    },
+    "projectProcess": {
+      "projectMethodology": "Agile",
+      "developmentProcess": "Scrum",
+      "qualityAssurance": "ISO 9001",
+      "changeManagement": "Change Control Board",
+      "riskManagement": "Risk Register",
+      "communicationPlan": "Regular team meetings, Slack",
+      "collaborationToolsUsed": [
+        "Jira",
+        "Confluence",
+        "Trello",
+        "GitHub",
+        "Slack"
+      ]
+    },
+    "people": {
+      "stakeholders": [
+        "Stakeholder 1",
+        "Stakeholder 2",
+        "Stakeholder 3",
+        "Stakeholder 4",
+        "Stakeholder 5"
+      ],
+      "communicationChannels": [
+        "Email",
+        "Bi-weekly Meetings",
+        "Video Conferences"
+      ]
+    },
+    "powerAndDecisionMaking": {
+      "decisionMakingStructure": "Hierarchical",
+      "decisionMakers": [
+        "Decision Maker 1",
+        "Decision Maker 2",
+        "Decision Maker 3"
+      ],
+      "authorityLevels": ["Level 1", "Level 2", "Level 3"]
+    },
+    "projectResults": {
+      "deliverables": [
+        "Deliverable 1",
+        "Deliverable 2",
+        "Deliverable 3",
+        "Deliverable 4",
+        "Deliverable 5"
+      ],
+      "successMetrics": [
+        "Metric 1",
+        "Metric 2",
+        "Metric 3",
+        "Metric 4",
+        "Metric 5"
+      ],
+      "lessonsLearned": [
+        "Lesson 1",
+        "Lesson 2",
+        "Lesson 3",
+        "Lesson 4",
+        "Lesson 5"
+      ]
+    }
+  },
+  {
+    "projectInformation": {
+      "projectName": "E-commerce Platform Upgrade",
+      "projectCode": "ECP202",
+      "projectType": "Software Development",
+      "projectDescription": "Upgrading the existing e-commerce platform with new features and improved performance."
+    },
+    "projectTeam": {
+      "teamLead": "Alice Johnson",
+      "projectLead": "Bob Williams",
+      "teamMembers": ["Charlie Brown", "David Davis", "Eva White"],
+      "rolesAndResponsibilities": {
+        "teamLead": "Oversee development tasks",
+        "projectLead": "Coordinate project activities",
+        "teamMembers": "Frontend and backend development"
+      }
+    },
+    "projectTimeline": {
+      "projectStartDate": "2024-03-15",
+      "projectFinishDate": "2024-09-30",
+      "workHours": 180,
+      "plannedDuration": "6.5 months",
+      "actualDuration": "7 months",
+      "criticalPath": "Task A -> Task B -> Task C"
+    },
+    "projectSchedule": {
+      "milestones": [
+        "Requirements Analysis",
+        "Design Approval",
+        "Beta Release",
+        "User Testing",
+        "Final Release"
+      ],
+      "tasks": ["Task A", "Task B", "Task C", "Task D", "Task E", "Task F"],
+      "dependencies": {
+        "Task B": ["Task A"],
+        "Task C": ["Task B"],
+        "Task D": ["Task C"],
+        "Task E": ["Task D"],
+        "Task F": ["Task E"]
+      }
+    },
+    "projectCostAndExpenses": {
+      "estimatedProjectCost": "$150,000",
+      "actualProjectCost": "$160,000",
+      "budgetAllocation": {
+        "development": "$100,000",
+        "testing": "$30,000",
+        "marketing": "$30,000"
+      },
+      "expenses": [
+        "Development Tools",
+        "Testing Resources",
+        "Marketing Campaigns"
+      ]
+    },
+    "projectProcess": {
+      "projectMethodology": "Scrum",
+      "developmentProcess": "Agile",
+      "qualityAssurance": "ISO 27001",
+      "changeManagement": "Change Control Board",
+      "riskManagement": "Risk Register",
+      "communicationPlan": "Daily Standups, Slack",
+      "collaborationToolsUsed": ["Jira", "Confluence", "GitHub"]
+    },
+    "people": {
+      "stakeholders": [
+        "Product Manager",
+        "Marketing Director",
+        "CTO",
+        "Customer Support Manager"
+      ],
+      "communicationChannels": [
+        "Email",
+        "Bi-weekly Meetings",
+        "Video Conferences"
+      ]
+    },
+    "powerAndDecisionMaking": {
+      "decisionMakingStructure": "Collaborative",
+      "decisionMakers": ["Product Manager", "CTO", "Project Lead"],
+      "authorityLevels": ["Level 1", "Level 2", "Level 3"]
+    },
+    "projectResults": {
+      "deliverables": [
+        "New Feature Set",
+        "Improved Performance Metrics",
+        "User Documentation"
+      ],
+      "successMetrics": [
+        "Increased User Engagement",
+        "Reduced Page Load Times",
+        "Positive User Feedback"
+      ],
+      "lessonsLearned": [
+        "Importance of User Feedback",
+        "Streamlining Development Processes"
+      ]
+    }
+  },
+  {
+    "projectInformation": {
+      "projectName": "Global Health Outreach",
+      "projectCode": "GHO202",
+      "projectType": "Healthcare",
+      "projectDescription": "Initiating a global health outreach program to provide medical assistance and education in underserved regions."
+    },
+    "projectTeam": {
+      "teamLead": "Olivia Medic",
+      "projectLead": "Patrick Health",
+      "teamMembers": [
+        "Quincy Nurse",
+        "Rebecca Doctor",
+        "Samuel Volunteer",
+        "Tara Pharmacist"
+      ],
+      "rolesAndResponsibilities": {
+        "teamLead": "Oversee health outreach initiatives",
+        "projectLead": "Coordinate medical teams",
+        "teamMembers": "Medical professionals and volunteers"
+      }
+    },
+    "projectTimeline": {
+      "projectStartDate": "2024-05-01",
+      "projectFinishDate": "2025-02-28",
+      "workHours": 180,
+      "plannedDuration": "9 months",
+      "actualDuration": "10 months",
+      "criticalPath": "Task P -> Task Q -> Task R"
+    },
+    "projectSchedule": {
+      "milestones": [
+        "Needs Assessment",
+        "Team Training",
+        "Medical Camps",
+        "Health Education Workshops",
+        "Follow-up Assessments"
+      ],
+      "tasks": ["Task P", "Task Q", "Task R", "Task S", "Task T"],
+      "dependencies": {
+        "Task Q": ["Task P"],
+        "Task R": ["Task Q"],
+        "Task S": ["Task R"],
+        "Task T": ["Task S"]
+      }
+    },
+    "projectCostAndExpenses": {
+      "estimatedProjectCost": "$300,000",
+      "actualProjectCost": "$320,000",
+      "budgetAllocation": {
+        "medical supplies": "$150,000",
+        "training programs": "$70,000",
+        "volunteer support": "$100,000"
+      },
+      "expenses": [
+        "Medical Equipment",
+        "Training Materials",
+        "Volunteer Travel and Accommodation"
+      ]
+    },
+    "projectProcess": {
+      "projectMethodology": "Lean",
+      "developmentProcess": "Incremental",
+      "qualityAssurance": "ISO 9001",
+      "changeManagement": "Health Oversight Committee",
+      "riskManagement": "Health and Safety Assessments",
+      "communicationPlan": "Regular team meetings, Outreach WhatsApp group",
+      "collaborationToolsUsed": ["Asana", "WhatsApp", "Skype"]
+    },
+    "people": {
+      "stakeholders": [
+        "World Health Organization",
+        "Local Health Authorities",
+        "Donors",
+        "Beneficiary Communities"
+      ],
+      "communicationChannels": [
+        "Email Updates",
+        "Monthly Progress Reports",
+        "Social Media Campaigns"
+      ]
+    },
+    "powerAndDecisionMaking": {
+      "decisionMakingStructure": "Collaborative",
+      "decisionMakers": [
+        "Project Lead",
+        "World Health Organization Representative",
+        "Donor Representatives"
+      ],
+      "authorityLevels": ["Level 1", "Level 2", "Level 3"]
+    },
+    "projectResults": {
+      "deliverables": [
+        "Health Screenings",
+        "Medical Treatments",
+        "Community Health Education Materials"
+      ],
+      "successMetrics": [
+        "Number of Patients Treated",
+        "Improvement in Health Indicators",
+        "Community Engagement Levels"
+      ],
+      "lessonsLearned": [
+        "Adaptability to Local Cultures",
+        "Logistics Challenges in Remote Areas"
+      ]
+    }
+  },
+  {
+    "projectInformation": {
+      "projectName": "Your Project Name",
+      "projectCode": "ABC123",
+      "projectType": "Type A",
+      "projectDescription": "A brief description of the project"
+    },
+    "projectTeam": {
+      "teamLead": "John Doe",
+      "projectLead": "Jane Smith",
+      "teamMembers": [
+        "Team Member 1",
+        "Team Member 2",
+        "Team Member 3",
+        "Team Member 4",
+        "Team Member 5",
+        "Team Member 6",
+        "Team Member 7",
+        "Team Member 8",
+        "Team Member 9",
+        "Team Member 10"
+      ],
+      "rolesAndResponsibilities": {
+        "teamLead": "Responsibilities of Team Lead",
+        "projectLead": "Responsibilities of Project Lead",
+        "teamMembers": "Responsibilities of Team Members"
+      }
+    },
+    "projectTimeline": {
+      "projectStartDate": "2024-01-01",
+      "projectFinishDate": "2024-06-30",
+      "workHours": 160,
+      "plannedDuration": "6 months",
+      "actualDuration": "7 months",
+      "criticalPath": "Task A -> Task B -> Task C"
+    },
+    "projectSchedule": {
+      "milestones": [
+        "Milestone 1",
+        "Milestone 2",
+        "Milestone 3",
+        "Milestone 4",
+        "Milestone 5"
+      ],
+      "tasks": ["Task A", "Task B", "Task C", "Task D", "Task E", "Task F"],
+      "dependencies": {
+        "Task B": ["Task A"],
+        "Task C": ["Task B"],
+        "Task D": ["Task C"],
+        "Task E": ["Task D"],
+        "Task F": ["Task E"]
+      }
+    },
+    "projectCostAndExpenses": {
+      "estimatedProjectCost": "$100,000",
+      "actualProjectCost": "$110,000",
+      "budgetAllocation": {
+        "development": "$30,000",
+        "testing": "$40,000",
+        "marketing": "$30,000"
+      },
+      "expenses": [
+        "Development Tools",
+        "Testing Resources",
+        "Marketing Campaigns"
+      ]
+    },
+    "projectProcess": {
+      "projectMethodology": "Scrum",
+      "developmentProcess": "Agile",
+      "qualityAssurance": "ISO 27001",
+      "changeManagement": "Change Control Board",
+      "riskManagement": "Risk Register",
+      "communicationPlan": "Daily Standups, Slack",
+      "collaborationToolsUsed": ["Jira", "Confluence", "GitHub"]
+    },
+    "people": {
+      "stakeholders": [
+        "Product Manager",
+        "Marketing Director",
+        "CTO",
+        "Customer Support Manager"
+      ],
+      "communicationChannels": [
+        "Email",
+        "Bi-weekly Meetings",
+        "Video Conferences"
+      ]
+    },
+    "powerAndDecisionMaking": {
+      "decisionMakingStructure": "Collaborative",
+      "decisionMakers": ["Product Manager", "CTO", "Project Lead"],
+      "authorityLevels": ["Level 1", "Level 2", "Level 3"]
+    },
+    "projectResults": {
+      "deliverables": [
+        "New Feature Set",
+        "Improved Performance Metrics",
+        "User Documentation"
+      ],
+      "successMetrics": [
+        "Increased User Engagement",
+        "Reduced Page Load Times",
+        "Positive User Feedback"
+      ],
+      "lessonsLearned": [
+        "Importance of User Feedback",
+        "Streamlining Development Processes"
+      ]
+    }
+  },
+  {
+    "projectInformation": {
+      "projectName": "E-commerce Platform Upgrade",
+      "projectCode": "ECP202",
+      "projectType": "Software Development",
+      "projectDescription": "Upgrading the existing e-commerce platform with new features and improved performance."
+    },
+    "projectTeam": {
+      "teamLead": "Alice Johnson",
+      "projectLead": "Bob Williams",
+      "teamMembers": ["Charlie Brown", "David Davis", "Eva White"],
+      "rolesAndResponsibilities": {
+        "teamLead": "Oversee development tasks",
+        "projectLead": "Coordinate project activities",
+        "teamMembers": "Frontend and backend development"
+      }
+    },
+    "projectTimeline": {
+      "projectStartDate": "2024-03-15",
+      "projectFinishDate": "2024-09-30",
+      "workHours": 180,
+      "plannedDuration": "6.5 months",
+      "actualDuration": "7 months",
+      "criticalPath": "Task A -> Task B -> Task C"
+    },
+    "projectSchedule": {
+      "milestones": [
+        "Requirements Analysis",
+        "Design Approval",
+        "Beta Release",
+        "User Testing",
+        "Final Release"
+      ],
+      "tasks": ["Task A", "Task B", "Task C", "Task D", "Task E", "Task F"],
+      "dependencies": {
+        "Task B": ["Task A"],
+        "Task C": ["Task B"],
+        "Task D": ["Task C"],
+        "Task E": ["Task D"],
+        "Task F": ["Task E"]
+      }
+    },
+    "projectCostAndExpenses": {
+      "estimatedProjectCost": "$150,000",
+      "actualProjectCost": "$160,000",
+      "budgetAllocation": {
+        "development": "$100,000",
+        "testing": "$30,000",
+        "marketing": "$30,000"
+      },
+      "expenses": [
+        "Development Tools",
+        "Testing Resources",
+        "Marketing Campaigns"
+      ]
+    },
+    "projectProcess": {
+      "projectMethodology": "Scrum",
+      "developmentProcess": "Agile",
+      "qualityAssurance": "ISO 27001",
+      "changeManagement": "Change Control Board",
+      "riskManagement": "Risk Register",
+      "communicationPlan": "Daily Standups, Slack",
+      "collaborationToolsUsed": ["Jira", "Confluence", "GitHub"]
+    },
+    "people": {
+      "stakeholders": [
+        "Product Manager",
+        "Marketing Director",
+        "CTO",
+        "Customer Support Manager"
+      ],
+      "communicationChannels": [
+        "Email",
+        "Bi-weekly Meetings",
+        "Video Conferences"
+      ]
+    },
+    "powerAndDecisionMaking": {
+      "decisionMakingStructure": "Collaborative",
+      "decisionMakers": ["Product Manager", "CTO", "Project Lead"],
+      "authorityLevels": ["Level 1", "Level 2", "Level 3"]
+    },
+    "projectResults": {
+      "deliverables": [
+        "New Feature Set",
+        "Improved Performance Metrics",
+        "User Documentation"
+      ],
+      "successMetrics": [
+        "Increased User Engagement",
+        "Reduced Page Load Times",
+        "Positive User Feedback"
+      ],
+      "lessonsLearned": [
+        "Importance of User Feedback",
+        "Streamlining Development Processes"
+      ]
+    }
+  },
+  {
+    "projectInformation": {
+      "projectName": "Green Energy Initiative",
+      "projectCode": "GEI101",
+      "projectType": "Renewable Energy",
+      "projectDescription": "Implementing a green energy initiative to reduce carbon emissions and promote sustainability."
+    },
+    "projectTeam": {
+      "teamLead": "Alexandra Green",
+      "projectLead": "Daniel Eco",
+      "teamMembers": [
+        "Francis Wind",
+        "Grace Solar",
+        "Henry Biomass",
+        "Isabel Hydro"
+      ],
+      "rolesAndResponsibilities": {
+        "teamLead": "Oversee energy projects",
+        "projectLead": "Coordinate sustainability efforts",
+        "teamMembers": "Specialized in wind, solar, biomass, and hydro energy"
+      }
+    },
+    "projectTimeline": {
+      "projectStartDate": "2024-04-01",
+      "projectFinishDate": "2024-12-31",
+      "workHours": 200,
+      "plannedDuration": "9 months",
+      "actualDuration": "10 months",
+      "criticalPath": "Task X -> Task Y -> Task Z"
+    },
+    "projectSchedule": {
+      "milestones": [
+        "Feasibility Study",
+        "Infrastructure Setup",
+        "Testing Phase",
+        "Implementation",
+        "Monitoring"
+      ],
+      "tasks": ["Task X", "Task Y", "Task Z", "Task W", "Task V"],
+      "dependencies": {
+        "Task Y": ["Task X"],
+        "Task Z": ["Task Y"],
+        "Task W": ["Task Z"],
+        "Task V": ["Task W"]
+      }
+    },
+    "projectCostAndExpenses": {
+      "estimatedProjectCost": "$500,000",
+      "actualProjectCost": "$520,000",
+      "budgetAllocation": {
+        "infrastructure": "$300,000",
+        "research": "$120,000",
+        "community engagement": "$100,000"
+      },
+      "expenses": [
+        "Wind Turbines",
+        "Solar Panels",
+        "Biomass Generators",
+        "Hydroelectric Equipment"
+      ]
+    },
+    "projectProcess": {
+      "projectMethodology": "Agile",
+      "developmentProcess": "Iterative",
+      "qualityAssurance": "ISO 14001",
+      "changeManagement": "Change Control Board",
+      "riskManagement": "Environmental Impact Assessment",
+      "communicationPlan": "Regular stakeholder meetings, GreenEnergy Slack channel",
+      "collaborationToolsUsed": ["Trello", "Google Drive", "Zoom"]
+    },
+    "people": {
+      "stakeholders": [
+        "World Health Organization",
+        "Local Health Authorities",
+        "Donors",
+        "Beneficiary Communities"
+      ],
+      "communicationChannels": [
+        "Email Updates",
+        "Monthly Progress Reports",
+        "Social Media Campaigns"
+      ]
+    },
+    "powerAndDecisionMaking": {
+      "decisionMakingStructure": "Collaborative",
+      "decisionMakers": [
+        "Project Lead",
+        "World Health Organization Representative",
+        "Donor Representatives"
+      ],
+      "authorityLevels": ["Level 1", "Level 2", "Level 3"]
+    },
+    "projectResults": {
+      "deliverables": [
+        "Health Screenings",
+        "Medical Treatments",
+        "Community Health Education Materials"
+      ],
+      "successMetrics": [
+        "Number of Patients Treated",
+        "Improvement in Health Indicators",
+        "Community Engagement Levels"
+      ],
+      "lessonsLearned": [
+        "Adaptability to Local Cultures",
+        "Logistics Challenges in Remote Areas"
+      ]
+    }
+  },
+
+  {
+    "attributes": "Healthcare",
+    "category": "healthcare",
+    "createdAt": 1706354591124,
+    "currency": "$",
+    "id": "5ece2c077e39da27658aa8a9",
+    "image": "/assets/products/product-1.png",
+    "inStock": true,
+    "isAvailable": true,
+    "isShippable": false,
+    "name": "Healthcare Erbology",
+    "price": 23.99,
+    "quantity": 85,
+    "sku": "401_1BBXBK",
+    "status": "published",
+    "updatedAt": 1706419391124,
+    "variants": 2
+  }
+]
