@@ -17,7 +17,7 @@ import { Seo } from "src/components/seo";
 import { useMounted } from "src/hooks/use-mounted";
 import { usePageView } from "src/hooks/use-page-view";
 import { paths } from "src/paths";
-import { ProjectListTable } from "src/sections/dashboard/allProjects/allProjects-list-table";
+import { ProjectListTable } from "src/sections/allProjects/allProjects-list-table";
 import projectsData from "../../data/allProjects.json";
 
 const useProjectsSearch = () => {
@@ -81,12 +81,9 @@ const useProjectsStore = (searchState) => {
     }
   }, [searchState, isMounted]);
 
-  useEffect(
-    () => {
-      handleProjectsGet();
-    },
-    [searchState]
-  );
+  useEffect(() => {
+    handleProjectsGet();
+  }, [searchState]);
 
   return {
     ...state,
@@ -147,7 +144,7 @@ const Page = () => {
                   }
                   variant="contained"
                 >
-                  Add
+                  New
                 </Button>
               </Stack>
             </Stack>

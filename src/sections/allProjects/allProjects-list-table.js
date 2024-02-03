@@ -4,7 +4,6 @@ import DotsHorizontalIcon from "@untitled-ui/icons-react/build/esm/DotsHorizonta
 import {
   Box,
   IconButton,
-  LinearProgress,
   SvgIcon,
   Table,
   TableBody,
@@ -33,19 +32,17 @@ export const ProjectListTable = (props) => {
         <Table sx={{ minWidth: 1200 }}>
           <TableHead>
             <TableRow>
-              <TableCell width="25%">Name</TableCell>
-              <TableCell width="25%">Stock</TableCell>
-              <TableCell>Actual Cost</TableCell>
-              <TableCell>Estimated Cost</TableCell>
+              <TableCell width="25%">Project Name</TableCell>
+              <TableCell width="25%">Project Code</TableCell>
               <TableCell>Project Lead</TableCell>
               <TableCell>Team Lead</TableCell>
+              <TableCell>Actual Cost</TableCell>
+              <TableCell>Estimated Cost</TableCell>
               <TableCell align="right">Actions</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
             {items.map((project) => {
-              const quantityColor =
-                project.quantity >= 10 ? "success" : "error";
               const statusColor =
                 project.status === "published" ? "info" : "success";
               const hasManyVariants = project.variants > 1;
@@ -78,31 +75,15 @@ export const ProjectListTable = (props) => {
                         </Box>
                       </Box>
                     </TableCell>
-                    <TableCell width="25%">
-                      <LinearProgress
-                        value={project?.projectTimeline?.workHours || "N/A"}
-                        variant="determinate"
-                        color={quantityColor}
-                        sx={{
-                          height: 8,
-                          width: 36,
-                        }}
-                      />
+                    <TableCell>
                       <Typography color="text.secondary" variant="body2">
-                        {project?.projectTimeline?.workHours || "N/A"} in stock
+                        {project?.projectInformation?.projectCode || "N/A"}
+
                         {hasManyVariants &&
                           ` in ${
-                            project?.projectTimeline?.workHours || "N/A"
+                            project?.projectInformation?.workHours || "N/A"
                           } variants`}
                       </Typography>
-                    </TableCell>
-                    <TableCell>
-                      {project?.projectCostAndExpenses?.actualProjectCost ||
-                        "N/A"}
-                    </TableCell>
-                    <TableCell>
-                      {project?.projectCostAndExpenses?.estimatedProjectCost ||
-                        "N/A"}
                     </TableCell>
                     <TableCell>
                       <SeverityPill color={teamLeadColor}>
@@ -114,6 +95,15 @@ export const ProjectListTable = (props) => {
                         {project?.projectTeam?.projectLead || "N/A"}
                       </SeverityPill>
                     </TableCell>
+                    <TableCell>
+                      {project?.projectCostAndExpenses?.actualProjectCost ||
+                        "N/A"}
+                    </TableCell>
+                    <TableCell>
+                      {project?.projectCostAndExpenses?.estimatedProjectCost ||
+                        "N/A"}
+                    </TableCell>
+
                     <TableCell align="right">
                       <IconButton>
                         <SvgIcon>
